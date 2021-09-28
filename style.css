@@ -1,0 +1,46 @@
+/**
+  *! Changing Defauly Styles of Browser
+**/
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/**
+  *! Styles rules for Section
+**/
+
+form {
+  max-width: 400px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Red, Blue, Green, Opacity */
+  padding: 50px;
+
+}
+
+.title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form > div > input { /* Parent > Child Relationship */
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+}
+
+/**
+  *! Styles rules for Icons
+**/
+
+
+/**
+  *! Media Queries are here
+**/
