@@ -12,15 +12,51 @@ body{
   font-family: sans-serif;
 }
 
+.container{
+  display: flex;
+  flex-direction: row; /* Default Value */
+}
+
 /**
-  *! Styles rules for Section
+  *! Styles rules for Content Section
+**/
+.content{
+  background: #f2796E;
+  width: 55%;
+  min-height: 100vh;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column; /* behave like a column */
+  justify-content: space-around; /* make the space around for content section */
+}
+
+.image{
+  background-image: url("./images/illustration.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+/*  border: 2px solid black; */
+  height: 65%;
+}
+
+.text{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+/**
+  *! Styles rules for form Section
 **/
 
 form {
-  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  /*max-width: 400px;*/
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Red, Blue, Green, Opacity */
   padding: 50px;
-
 }
 
 .title{
